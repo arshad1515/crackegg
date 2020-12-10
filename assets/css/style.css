@@ -1,0 +1,405 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-size: 15px !important;
+}
+h3, h4 {
+    font-family: "Raleway SemiBold";
+}
+.head
+{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+}
+.top-right-side i
+{
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.top-right-side p
+{
+    color: #000000 !important;
+    font-weight: bolder;
+}
+.slider
+{
+    background: url("../img/backimg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.carousel-caption
+{
+    bottom: 204px !important;
+}
+
+.follow
+{
+display: inline-block;
+}
+.follow p
+{
+    font-family: "Raleway Black";
+    color: #e4e6e6;
+}
+.followus-top
+{
+    display: inline-block;
+}
+.followus-top i{
+    color: #ffffff;
+    font-size: 20px;
+}
+.twitter:hover
+{
+    color: #00acee;
+}
+.facebook:hover
+{
+    color: #3b5998;
+}
+.whatsapp:hover
+{
+    color: #25d366;
+}
+.messenger:hover
+{
+    color: #0078FF;
+}
+.phone:hover
+{
+    color: #fcb917;
+}
+.mail:hover
+{
+    color: #fcb917;
+}
+.land:hover
+{
+    color: #fcb917;
+}
+button:hover
+{
+    background: #fcb917;
+    cursor: pointer;
+}
+.service-i i
+{
+    font-size: 100px;
+    padding-bottom: 20px;
+    color: #fcb917;
+}
+.second-box:hover
+{
+    background:#fcb917 ;
+    cursor: pointer;
+}
+.second-box:hover i, .second-box:hover p
+{
+    color: #fff !important;
+}
+
+.top-right-side img
+{
+    height: 30px;
+}
+.top-right-side p
+{
+    display: contents;
+    color: #e4e6e6;
+}
+.log img
+{
+    height: 70px;
+}
+.top-nav a
+{
+    font-size: 16px !important;
+    font-weight: bold;
+    color: white !important;
+    margin-right: 10px;
+}
+.aboutt
+{
+    background: url("../img/about.png");
+    background-position: center top;
+    height: 557px;
+}
+.tast-1
+{
+
+}
+.tast-2
+{
+
+    background: #db292b;
+}
+a:hover{
+    color: #db292b;
+}
+.feel
+{
+    font-family: "Raleway Black";
+    font-style: italic;
+    font-size: 30px !important;
+}
+.tast-second
+{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+.tast-name, .tast-price
+{
+    font-size: 20px !important;
+    font-family: "Raleway SemiBold";
+    margin-bottom: 0px;
+}
+.price-rate, price-rate1
+{
+    margin-right: 0px !important;
+}
+.service p
+{
+    margin-bottom: 2px;
+}
+.first-box1
+{
+    border: 2px solid #a1a1a1;
+    padding-bottom: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.second-box
+{
+    border: 2px solid #a1a1a1;
+}
+.service-detail
+{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.products
+{
+    background: url("../img/pexels-photo-326311.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.products-main
+{
+    padding-top:100px ;
+    padding-bottom:100px ;
+}
+.p-box
+{
+    border: 1px solid #a1a1a1;
+    margin-top: 5px;
+}
+.p-box:hover
+{
+    border: 2px solid  #db292b;
+}
+.p-img img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.p-box-2
+{
+    border-top: 1px solid #a1a1a1;
+    background: #f4f4f4;
+    padding: 30px;
+}
+.price-box
+{
+    padding: 20px;
+}
+.price
+{
+    color:#db292b !important; ;
+
+}
+.price-box p
+{
+    margin-bottom: 6px;
+}
+.price span
+{
+    font-size: 20px !important;
+}
+.our-team
+{
+
+
+}
+.our-team-first
+{
+
+}
+.our-team p, .p-box p, .p-s
+{
+    color: #b4baba;
+}
+.our-team h3
+{
+    font-family: "Raleway SemiBold";
+}
+footer
+{
+    background: url("../img/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-logo img
+{
+    height: 70px;
+}
+footer h2
+{
+    color:#db292b ;
+    font-size: 25px;
+}
+
+footer i{
+    color: #ffffff;
+    font-size: 25px;
+}
+footer i:hover
+{
+    color: #db292b;
+}
+.footer-button
+{
+    background: #db292b;
+    border: #db292b;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.desktop-none
+{
+display: none;
+}
+@media only screen and (max-width: 736px) {
+    .carousel-caption
+    {
+        bottom: 20px !important;
+    }
+    .top-right-side p
+    {
+        display: contents;
+    }
+    .our-team h3
+    {
+        text-align: center;
+    }
+    .p-box {
+        margin-top: 30px;
+    }
+    .button-nav
+    {
+        background: aliceblue;
+    }
+
+    .desktop-none
+    {
+        display: block;
+    }
+    .top-a
+    {
+        display: none !important;
+    }
+    .tast-second, .our-team
+    {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .center-f
+    {
+text-align: center;
+    }
+    .hotel, .make, .contact-f
+    {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .our-team
+    {
+        text-align: center;
+    }
+    .tast-second
+    {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+.cont {
+    position: relative;
+
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fcb917;
+}
+
+.cont:hover .overlay {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.center-button {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+
+
